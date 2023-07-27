@@ -61,6 +61,7 @@ class MenuManager {
     }
 
      fun hotAndIce(hotIce: String) {
+         return menuItems
        menuItems.filter { it.hotIce == "Iced Only"}
      }
 }
