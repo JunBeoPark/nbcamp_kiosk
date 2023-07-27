@@ -1,3 +1,3 @@
-package com.example.kiosk;
+package com.example.kiosk
 
-class Beverage(id: Int, name: String, price: Double, category: String, description: String) : MenuItem(id, name, price, category, description)
+class Beverage(id: Int, name: String, price: Double, category: String, description: String, hotIce: String) : MenuItem(id, name, price, category, description, hotIce)
