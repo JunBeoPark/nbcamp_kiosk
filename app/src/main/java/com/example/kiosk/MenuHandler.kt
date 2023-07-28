@@ -81,23 +81,7 @@ class MenuHandler(private val menuManager: MenuManager) {
                                     beverageChoice,
                                     menuChoiceCategory
                                 )
-                                //
-                                //
-                                var hotPossible = menuManager.hotAndIce(menuChoiceCategory)
-                                var hotIceChoice = readLine()
-                                if (hotPossible == "Hot and Ice") {
-                                    when (hotIceChoice) {
-                                         "hot" -> {
-                                            println("Hot")
-                                        }
-                                         "ice" -> {
-                                            println("Ice")
-                                        }
-                                        else -> {
-                                            println("잘못된 입력입니다.")
-                                        }
-                                    }
-                                }else { println("Ice")}
+                            
 
                                 menuItem?.let {
                                     
